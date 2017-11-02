@@ -1,0 +1,26 @@
+$main-color: #393d45;
+$red-color: #d4495a;
+$green-color: #33b185;
+$purple-color:#8f5db7;
+$bpurple-color: #59267c;
+
+$white-color: #fff;
+$black-color: #000;
+
+//fonts
+$UniBold: 'UniSansBold';
+$UniThin:'UniSansThin';
+$RobotoCBold:'Roboto Condensed';
+$RobotoRegular: 'RobotoRegular';
+
+$i: 10;
+@while $i < 101 {
+    .mb-#{$i} { margin-bottom: $i + px; }
+    $i: $i + 10;
+}
+
+$i: 10;
+@while $i < 101 {
+    .mt-#{$i} { margin-top: $i + px; }
+    $i: $i + 10;
+}
